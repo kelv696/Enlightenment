@@ -1,0 +1,106 @@
+#enlighten App)
+#This app/ game will give the user a reandomly genrated word within the relm of the asiigned words givin, and intern give a pislogical/ enlightend 
+# sentece. The intention behind this app is to allow the user to feel as if the randomly assigned letter/ word was pefctly picked for them
+# i made this in hopes of allowing people to feel that things outide of their control are not happing to them but for them and hop ethis app is 
+# able to reflcet the true vision i had. )
+from multiprocessing.sharedctypes import Value
+from random import random
+from re import T
+import this
+
+print ('Enlightenment')
+
+E = 1
+N = 2
+L = 3
+I = 4
+G = 5
+H = 6
+T = 7
+E = 8
+N = 9
+
+
+
+E = ('love')
+def E():
+    print('love')
+    print('The fear-induced feeling, sugar-coated-in romance, and drenched in commitment')
+    print ('Love is a role and you play the main character. Love yourself so you can love others')
+
+N = ('me')
+def N():
+    print ('You')
+    print ('You are the thoughts that gather in a random array, the thinker, the doer')
+    print ('You are not experiencing life, you are life')
+   
+L = ('Happinesses')
+def L():
+    print ('Happinesses')
+    print ('In order to find happinesses you first need to take responsibility for your participation in your own suffering')
+    print ('Dissociate from chasing happiness as you can not catch what is not running nor can you find what was never lost')
+
+I = ('life')
+def I():
+    print ('life')
+    print ('in life you often focus on the live in the future and forget the now ')
+    print ('To really enjoy the downs and ups in life you need to understand things are not happening to you but for you')
+    print ('if you want to understand your life listen to your thoughts as you are shaped by what you feed yourself subconscious')
+
+G = ('Death')
+def G():
+    print('Death')
+    print('Remember that death is not the opposite of life but rather a part of the journey')
+    print ('There is no known set date for your death hence why i urge you to live a fulfilled life')
+    print ('life is a bitter-sweet candy and death is the inevitable after-taste')
+
+H = ('Thoughts')
+def H():
+    print ('Thoughts')
+    print ('The mind can be a powerful adversary or an uncontrollable enemy')
+    print ('Feed your subconscious with positive thoughts as it controls your mood more than you are aware of')
+    print ('Habits are hard to break based on the repetitiveness of the action. The same goes for the thoughts you feed yourself')
+    
+T =  ('time')
+def T():
+   print ('Time')
+   print ('The contract made to help us further advance and calculate our lifespan ')
+   print ('The is no set date for your departure from this illiosive life we live.')
+   print ('The is a bittersweet feeling in the unawareness this as when in deep thought you realise that you must live each day as it is your last.')
+
+E2 = ('anger')
+def E2():
+    print ('Anger')
+    print ('Choices made in this enraged state do more harm to the carrier of this unforgiving emotion')
+    print ('To control your anger you must understand that things in ntis world do not happen to you but for you')
+    print ('This change in mindset will allow you to better understand the situations you often find yourself in and help you cater to your emotions')
+ 
+N1 = ('Logic')
+def N1():
+    print ('Logic')
+    print ('Two things can be correct simpotenalsy')
+    print ('The is often a conflict between logic and emotions as despite how you feel a giving fact will always remain the same')
+    print ('Detach from the feeling of inferiority when your emotions are faced with logic as you are under no obligation to feel a fixed way')
+ 
+
+import random
+value = random.randint(1, 9)
+print(value)
+if value == 3:
+    print (L()) 
+elif value == 2:
+    print (N())
+elif value == 1:
+    print(E())
+elif value == 4:
+    print (I())
+elif value == 5:
+    print (G())
+elif value == 6:
+    print (H())
+elif value == 7:
+    print (T())
+elif value == 8:
+    print (E2())
+elif value == 9:
+    print (N1())
