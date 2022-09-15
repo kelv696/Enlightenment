@@ -1,8 +1,9 @@
-#enlighten App)
-#This app/ game will give the user a reandomly genrated word within the relm of the asiigned words givin, and intern give a pislogical/ enlightend 
-# sentece. The intention behind this app is to allow the user to feel as if the randomly assigned letter/ word was pefctly picked for them
-# i made this in hopes of allowing people to feel that things outide of their control are not happing to them but for them and hop ethis app is 
-# able to reflcet the true vision i had. )
+#Enlighten App)
+#This app/ game will give the user a randomly generated word within the realm of the assigned words given, and intern give a  logical/ enlightened
+#sentence. The intention behind this app is to allow the user to feel as if the randomly assigned letter/ word was perfectly picked for them
+# i made this in hopes of allowing people to feel that things outside of their control are not happening to them but for them and hope this app is
+# able to reflect the true vision i had. )
+
 from multiprocessing.sharedctypes import Value
 from random import random
 from re import T
